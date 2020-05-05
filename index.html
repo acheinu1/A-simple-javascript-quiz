@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Javascript quiz</title>
+    <link rel="stylesheet" href="assets/css/quiz.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>MY simple Javascript quiz</h1>
+            <p>lets see how much you know Javascript</p>
+            <hr>
+            <div id="result"></div>
+        </header> 
+        <section>
+            <!-- the question form -->
+            <form name="JSquiz" onsubmit="return submitAnswers()">
+                <!-- question 1  -->
+                <h3>1. In which HTML element do we put in Javascript code?</h3>
+                <input type="radio" name="Q1" value="a" id="q1a">a.  &lt;js&gt; <br>
+                <input type="radio" name="Q1" value="b" id="q1b">b.  &lt;script&gt; <br>
+                <input type="radio" name="Q1" value="c" id="q1c">c.  &lt;body&gt; <br>
+                <input type="radio" name="Q1" value="d" id="q1d">d.  &lt;link&gt; <br>
+
+                <!-- question 2  -->
+                <h3>2. which HTML attribute is used to reference an external Javascript file?</h3>
+                <input type="radio" name="Q2" value="a" id="q2a">a.  src <br>
+                <input type="radio" name="Q2" value="b" id="q2b">b.  rel <br>
+                <input type="radio" name="Q2" value="c" id="q2c">c.  type <br>
+                <input type="radio" name="Q2" value="d" id="q2d">d.  href <br>
+
+                <!-- question 3  -->
+                <h3>3. how would you write HELLO in an alert box ?</h3>
+                <input type="radio" name="Q3" value="a" id="q3a">a.  msg("hello") <br>
+                <input type="radio" name="Q3" value="b" id="q3b">b.  alertbox("hello") <br>
+                <input type="radio" name="Q3" value="c" id="q3c">c.  document.write("hello") <br>
+                <input type="radio" name="Q3" value="d" id="q3d">d.  alert("hello") <br>
+
+                <!-- question 4  -->
+                <h3>4. Javascript is directly related to java programming language ?</h3>
+                <input type="radio" name="Q4" value="a" id="q4a">a.  True; <br>
+                <input type="radio" name="Q4" value="b" id="q4b">b.  False; <br>
+                
+                <!-- question 5  -->
+                <h3>5. A variable with Javascript must start with</h3>
+                <input type="radio" name="Q5" value="a" id="q5a">a  $; <br>
+                <input type="radio" name="Q5" value="b" id="q5b">b  #; <br>
+                <input type="radio" name="Q5" value="c" id="q5c">c  &; <br>
+                <input type="radio" name="Q5" value="d" id="q5d">d  No variable at all; <br>
+                <br>
+                <input type="submit" value="submit Answers"> <br>
+                <br>
+                <hr>
+            </form>
+        </section>
+        <footer>
+             <p>Copyright &copy; 2020 all rights reserved </p>
+        </footer>
+    </div>
+
+    <script src="assets/js/quizz.js"></script>
+</body>
+</html>

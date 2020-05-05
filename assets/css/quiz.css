@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-image: url(../images/math-U5mHl-uACe0-unsplash.jpg);
+    background-size: contain;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    background-color: crimson;
+    margin-top: 2em;
+    color: white;
+    padding: 0px 20px;
+}
+
+#container header{
+    text-align: center;
+    background-color: black;
+}
+
+header p{
+    color: white;
+    font-size: larger;
+    /* line-height: 2px; */
+    background-color: rgba(220, 20, 60, 0.459);
+}
+
+input[type="submit"]{
+    position: absolute;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
+
+#result h3{
+    background-color: rgba(137, 43, 226, 0.452);
+    padding: 1px 30px;
+}
